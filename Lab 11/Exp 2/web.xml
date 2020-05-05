@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+	<display-name>dateeeee</display-name>
+	<servlet>
+		<servlet-name>DareSrv</servlet-name>
+		<display-name>DareSrv</display-name>
+		<description></description>
+		<servlet-class>DareSrv</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DareSrv</servlet-name>
+		<url-pattern>/DareSrv</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
